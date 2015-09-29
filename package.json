@@ -1,0 +1,37 @@
+{
+  "name": "troupe",
+  "version": "0.0.1",
+  "description": "NodeJS Actor Model toolkit",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register \"./test/**/*-spec.js\"",
+    "test-debug": "mocha --debug-brk --compilers js:babel/register \"./test/**/*-spec.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafakato/troupe.git"
+  },
+  "keywords": [
+    "actor",
+    "toolkit",
+    "nodejs"
+  ],
+  "author": "Rafael Kato <rafael@kato.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafakato/troupe/issues"
+  },
+  "homepage": "https://github.com/rafakato/troupe#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "chai-spies": "^0.7.0",
+    "mocha": "^2.3.0"
+  },
+  "dependencies": {
+    "babel": "^5.8.23",
+    "bluebird": "^2.9.34",
+    "node-uuid": "^1.4.3",
+    "require-all": "^1.1.0",
+    "wildemitter": "^1.1.0"
+  }
+}
