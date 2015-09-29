@@ -1,5 +1,7 @@
 #!!!!!!!!!! Work in Progress !!!!!!!!!#
 
+[![Join the chat at https://gitter.im/rafakato/troupe](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/rafakato/troupe?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 # Troupe #
 
 Troupe is a toolkit for building concurrent and distributed, message-driven applications.
